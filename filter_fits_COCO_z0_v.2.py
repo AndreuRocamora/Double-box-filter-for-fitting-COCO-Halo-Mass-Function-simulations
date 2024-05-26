@@ -39,7 +39,7 @@ rho0=9.9e-27*(3.0857e22)**3/(2e30) #densitat mitjana
 #deltac=(rhoc-rho0)/rho0 #perturbació referent a la densitat crítica de colapse
 deltac=1.6865 #de moment considero aquest valor de deltac
 omWDM=omm-omb
-mWDM=3.3
+mWDM=3.3 #keV
 #%%
 #CDM spectrum (including tranfer function)
 hreal=h0/100
