@@ -25,7 +25,7 @@ from scipy.interpolate import CubicSpline
 
 #%%
 #Univers parameters
-omm=0.2726 #omega matter
+omm=0.272 #omega matter
 omb=0.046 #omega baryon
 h0=70.4 # Hubble constant
 zobs=0 #redshift d'observacio
