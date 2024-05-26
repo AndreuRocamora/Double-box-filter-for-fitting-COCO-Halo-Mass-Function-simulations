@@ -1,5 +1,5 @@
 # Double-box-filter-for-fitting-COCO-Halo-Mass-Function-simulations
-#COCO simulations from Bose et.al (2016) are fitted using the new Double Box filter.
+#COCO simulations from Bose et.al (2016) are fited using the new Double Box filter.
 
 #All the code can be executed without any extra library incorpored and it will return several figures:
 
