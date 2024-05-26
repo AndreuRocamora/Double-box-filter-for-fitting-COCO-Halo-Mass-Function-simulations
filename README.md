@@ -1,7 +1,7 @@
 # Double-box-filter-for-fitting-COCO-Halo-Mass-Function-simulations
 #COCO simulations from Bose et.al (2016) are fited using the new Double Box filter.
 
-#All the code can be executed without any extra library incorpored and it will return several figures:
+#All the code can be executed without any extra library than numpy, matplotlib and scipy. It will return several figures:
 
 #Figure 1: power spectrum for CDM and for the WDM with a transfer function with the parameters selected above
 
