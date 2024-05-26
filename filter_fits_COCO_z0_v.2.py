@@ -322,7 +322,7 @@ def sigma2caixes4(y,c,a1,a2,a3,a4):
         sigmaquadrat=integrate.quad(lambda x: PSlin(x,al)*x**2*(1+(alpha*x)**beta)**(2*gamma)/(8*np.pi**2),1e-4,(1+a1)*y)[0]+integrate.quad(lambda x: PSlin(x,al)*x**2*(1+(alpha*x)**beta)**(2*gamma)/(8*np.pi**2),1e-4,(1+a2)*y)[0]+integrate.quad(lambda x: PSlin(x,al)*x**2*(1+(alpha*x)**beta)**(2*gamma)/(8*np.pi**2),1e-4,(1+a3)*y)[0]+integrate.quad(lambda x: PSlin(x,al)*x**2*(1+(alpha*x)**beta)**(2*gamma)/(8*np.pi**2),1e-4,(1+a4)*y)[0]
     return sigmaquadrat  
 #%%
-#confirmació dels extrems de sigma, per beta gran cal coincideixin el smooth i el sharp
+#variance plot for the studied filters
 
 lk=np.logspace(-5,5,1000)
 lm=4*np.pi*(c/lk)**3/3*rho0*omm
@@ -332,7 +332,6 @@ lsig2CDM=np.zeros(lk.size)
 lsig2WDM=np.zeros(lk.size)
 lsig2WDMs=np.zeros(lk.size)
 lsig2WDMc2=np.zeros(lk.size)
-lsig2WDMc2s=np.zeros(lk.size)
 
 for i in range(0,lk.size):
     lsig2CDM[i]=sigma2linCDM(lk[i],al,m)
