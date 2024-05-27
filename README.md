@@ -35,4 +35,4 @@
 
 #Figure 16: spectral indexs for the CDM and WDM power spectrum
 
-#Figure 17: spectral index (n) space trends for 
+#Figure 17: spectral index (n) space trends
