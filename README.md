@@ -23,10 +23,12 @@
 
 #Figure 10: fit for the WDM halo mass function with a four boxes filter using the simmulation points from Bose et.al (2016)
 
-#Figure 11: one plot with the fited functions for the several filters studied
+#Figure 11: fit for the WDM halo mass function with the smooth Double Box filter using the simmulation points from Bose et.al (2016)
 
-#Figure 12: one plot with the fited functions for the smooth-k and Double Box with the deviation from the interpolated simulation points.
+#Figure 12: one plot with the fited functions for the several filters studied
 
-#Figure 13: one plot with the fited functions for the smooth-k, Double Box and k-sharp filters with the deviation from the interpolated simulation points.
+#Figure 13: one plot with the fited functions for the smooth-k and Double Box with the deviation from the interpolated simulation points.
 
-#Figure 14: one plot with different filter functions using two set of parameters for the Double Box
+#Figure 14: one plot with the fited functions for the smooth-k, Double Box and k-sharp filters with the deviation from the interpolated simulation points.
+
+#Figure 15: one plot with different filter functions using two set of parameters for the Double Box
