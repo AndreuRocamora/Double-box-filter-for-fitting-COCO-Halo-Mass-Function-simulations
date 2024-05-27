@@ -27,8 +27,12 @@
 
 #Figure 12: one plot with the fited functions for the several filters studied
 
-#Figure 13: one plot with the fited functions for the smooth-k and Double Box with the deviation from the interpolated simulation points.
+#Figure 13: one plot with the fited functions for the smooth-k and the smooth Double Box with the deviation from the interpolated simulation points.
 
-#Figure 14: one plot with the fited functions for the smooth-k, Double Box and k-sharp filters with the deviation from the interpolated simulation points.
+#Figure 14: one plot with the fited functions for the smooth-k, smooth Double Box and k-sharp filters with the deviation from the interpolated simulation points.
 
-#Figure 15: one plot with different filter functions using two set of parameters for the Double Box
+#Figure 15: one plot with different filter functions using two set of parameters for the smooth Double Box
+
+#Figure 16: spectral indexs for the CDM and WDM power spectrum
+
+#Figure 17: spectral index (n) space trends for 
