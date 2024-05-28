@@ -35,4 +35,4 @@
 
 #Figure 16: spectral indexs for the CDM and WDM power spectrum
 
-#Figure 17: spectral index (n) space trends to assure the goodness of the smooth Double Box filter
+#Figure 17: spectral index (n) space trends to assure the goodness of the smooth Double Box filter (in orange) with respect to the index variation filtered using K-sharp (blue), in green it can be observed the enormous difference between the better fit for the smooth-k. 
