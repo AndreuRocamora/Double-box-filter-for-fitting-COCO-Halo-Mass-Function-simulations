@@ -13,9 +13,9 @@
 
 #Figure 5: fit for the CDM and WDM halo mass function for the simmulation points from Bose et.al (2016)
 
-#Figure 6: variance as a function of mass for smooth-k, Double Box and four boxes filter for WDM 
+#Figure 6: variance as a function of mass for smooth-k, smooth Double Box, Double Box and four boxes filter for WDM in addition to a comparison with the approximated integration for the smooth-k filter using the limit trends
 
-#Figure 7: derivative of the variance as a function of k for smooth-k, Double Box and four boxes filter for WDM 
+#Figure 7: derivative of the variance as a function of k for smooth-k, smooth Double Box, Double Box and four boxes filter for WDM 
 
 #Figure 8: fit for the WDM halo mass function with an smooth-k filter using the simmulation points from Bose et.al (2016)
 
@@ -35,4 +35,4 @@
 
 #Figure 16: spectral indexs for the CDM and WDM power spectrum
 
-#Figure 17: spectral index (n) space trends
+#Figure 17: spectral index (n) space trends to assure the goodness of the smooth Double Box filter
