@@ -1,5 +1,7 @@
 # Double-box-filter-for-fitting-COCO-Halo-Mass-Function-simulations
-#COCO simulations from Bose et.al (2016) are fited using the new smooth Double Box filter.
+#COCO simulations from Bose et.al (2016) are fited using the new so called smooth Double Box filter (defined using two k-sharp filters: one weighted at 3/4 and one
+#weighted at 1/4 with an scale variation).  The name 'smooth', although the filter is not smoothed is used just here to distinguish it 
+#from the simple Double Box filter which is formed using two equally weighted boxes (k-sharp filters) with different scale variations. 
 
 #All the code can be executed without any extra library than numpy, matplotlib and scipy. It will return several figures:
 
