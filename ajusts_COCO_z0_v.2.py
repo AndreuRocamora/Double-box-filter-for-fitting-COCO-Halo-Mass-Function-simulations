@@ -413,7 +413,7 @@ def dersig2c4(k,c,a1,a2,a3,a4):
     params=np.array([a1,a2,a3,a4])
     deriv=np.zeros(k.size)
     
-    #matriu de transefrència Matteo Leo thermal WDM
+    #thermal WDM transference matrix
     alpha=0.049*(omWDM/0.25)**(0.11)*(hreal/0.7)**(1.22)*(mWDM)**(-1.11)/hreal
     beta=2*1.12
     gamma=-5/1.12
