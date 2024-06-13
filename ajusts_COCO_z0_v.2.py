@@ -863,37 +863,6 @@ plt.xscale('log')
 plt.yscale('log')
 
 #%%
-#trends of the variance behaviour function for slopes of small masses (spectral power for R \to 0)
-linian=np.linspace(-23,-3,10000)
-betass=3.67
-betasmoothk=3.2
-aj=0.25
-bb=0.4
-ns=-0.067#spectral index variation
-plt.plot(linian,(251*(linian+23.01)**(-2/3))**ns*(linian+3)/(linian+ns+3))
-plt.plot(linian,(12.59*(-(linian+2.5))**(1/1.65))**ns*(linian+3)/(linian+ns+3))
-plt.plot(linian,2**((linian+3)/betass)*(1-(linian+3)/(2*(linian+3-2*betass))))
-plt.plot(linian,1-(linian+3)/(linian+3-2*betasmoothk)-(2*(linian+3))/(linian+3+betasmoothk)+((linian+3))/(linian+3+2*betasmoothk))
-#plt.plot(linian,3/4+2**((linian+3)/betass)*(1/4)-2**((linian+3)/betass-2*betass)*(linian+3)/(2*(linian+3-2*betass)))
-plt.plot(linian,(1-aj)+(aj)*(1+bb)**(linian+3))
-
-plt.xlabel('$n (spectral index)$')
-plt.ylabel('$p(n)$')
-
-plt.ylim([-1,1.5])
-
-#%%
-#the relative deviation of the p functions for the SK and sDB filters
-#consiering a sDB filter
-#plt.plot(linian,np.abs(((251*(linian+23.1)**(-2/3))**ns*(linian+3)/(linian-ns+3)-2**((linian+3)/betass)*(1-(linian+3)/(linian+3-2*betass)/2))/((251*(linian+23.1)**(-2/3))**ns*(linian+3)/(linian-ns+3)))) #for the  interval [-22,-12]
-#plt.plot(linian,np.abs(((12.59*(-(linian+2.5))**(1/1.65))**ns*(linian+3)/(linian-ns+3)-2**((linian+3)/betass)*(1-(linian+3)/(linian+3-2*betass)/2))/((12.59*(-(linian+2.5))**(1/1.65))**ns*(linian+3)/(linian-ns+3))))
-
-#considering an SK filter
-#plt.plot(linian,(((251*(linian+23.1)**(-2/3))**ns*(linian+3)/(linian-ns+3)-1+(linian+3)/(linian+3-2*betasmoothk)+(2*(linian+3))/(linian+3+betasmoothk)-((linian+3))/(linian+3+2*betasmoothk))/((251*(linian+23.1)**(-2/3))**ns*(linian+3)/(linian-ns+3)))**2)
-
-#considering a DB non uniform
-plt.plot(linian,(((12.59*(-(linian+2.5))**(1/1.65))**ns*(linian+3)/(linian-ns+3)-(1-aj)-(aj)*(1+bb)**(linian+3))/((12.59*(-(linian+2.5))**(1/1.65))**ns*(linian+3)/(linian-ns+3)))**2)
-#%%
 #power spectrum logarithm derivative
 loglink5=np.linspace(-4,5,1000)
 #derivlogP=np.zeros(loglink5.size)
