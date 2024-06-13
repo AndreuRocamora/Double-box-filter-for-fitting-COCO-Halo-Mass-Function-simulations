@@ -37,4 +37,4 @@ from the simple Double Box filter which is formed using two equally weighted box
 
 #Figure 16: spectral indexs for the CDM and WDM power spectrum
 
-#Figure 17: derivative of  the WDM power spectrum to achieve analytical expressions for the dependance of k_M with n
+#Figure 17: derivative of  the WDM power spectrum to achieve the dependance of k_M with n
