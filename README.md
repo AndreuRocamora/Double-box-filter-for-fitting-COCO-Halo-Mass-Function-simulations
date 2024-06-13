@@ -33,7 +33,7 @@ from the simple Double Box filter which is formed using two equally weighted box
 
 #Figure 14: one plot with the fited functions for the smooth-k, smooth Double Box and k-sharp filters with the deviation from the interpolated simulation points.
 
-#Figure 15: one plot with different filter functions using two set of parameters for the smooth Double Box
+#Figure 15: one plot with several filtering functions as a function of k*R*c
 
 #Figure 16: spectral indexs for the CDM and WDM power spectrum
 
