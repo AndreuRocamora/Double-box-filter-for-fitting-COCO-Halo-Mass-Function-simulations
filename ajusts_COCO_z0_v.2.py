@@ -32,7 +32,7 @@ from scipy.interpolate import CubicSpline
 omm=0.272 #omega matter
 omb=0.046 #omega baryon
 h0=70.4 # Hubble constant
-zobs=0 #redshift d'observacio
+zobs=0 #redshift
 gcos=4.499450941e-15   # G, in Mpc^3/Gyr^2/M_o
 gyr=9.778131302e2  #Gyr, in (km/s/Mpc)^{-1}
 ih0=gyr/h0   # H_0^{-1} in Gyr
@@ -41,7 +41,7 @@ ih_z=gyr/h_z
 rhoc=1/(2*np.pi*gcos*ih_z**2) #densitat crítica
 rho0=9.9e-27*(3.0857e22)**3/(2e30) #densitat mitjana
 #deltac=(rhoc-rho0)/rho0 #crytical density contrast
-deltac=1.6865 #de moment considero aquest valor de deltac
+deltac=1.6865 #crytical density contrast for z=0
 omWDM=omm-omb
 mWDM=3.3
 #%%
